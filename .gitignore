@@ -1,0 +1,63 @@
+# Python bytecode i cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualna okruženja
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build, distribucija i paketi
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test i coverage izvještaji
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpointi
+.ipynb_checkpoints
+
+# IDE/editor postavke
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logovi i privremeni fajlovi
+*.log
+logs/
+*.tmp
+
+# Osjetljive i konfiguracijske datoteke
+*.env
+.env.*
+secrets.*
+config.py
+
+# Baze podataka
+*.sqlite
+*.sqlite3
+*.db
+
+# Generirana dokumentacija
+docs/_build/
+docs/generated/
+
+# Ostalo
+.DS_Store
+Thumbs.db
